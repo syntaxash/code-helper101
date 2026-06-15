@@ -28,3 +28,5 @@ Code Helper combines simplicity, speed, and accessibility to create a seamless c
 https://code-syntax.streamlit.app/ ---->link
 
 **Code Smarter. Learn Faster. Build Better. 🚀✨**
+
+![landing page](LANDING_PAGE.png)
