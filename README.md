@@ -29,4 +29,4 @@ https://code-syntax.streamlit.app/ ---->link
 
 **Code Smarter. Learn Faster. Build Better. 🚀✨**
 
-![landing page](LANDING_PAGE.png)
+![landing page](logo1.png)
