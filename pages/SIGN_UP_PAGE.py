@@ -1,5 +1,8 @@
 import streamlit as st
 import base64
+import mysql.connector
+conn=mysql.connector.connect(host="127.0.0.1",user="root",database="da1",passwd="")
+my=conn.cursor()
 
 def get_base64(image_file):
     with open(image_file, "rb") as f:
@@ -43,9 +46,19 @@ with col1:
         st.info("Ready to sign in!")
      
 with col2:
+
     if st.button("*Sign up*", use_container_width=True):
-        st.success("Your are signed up!")
+       my.execute("insert into user_information values("+"'"+t1+"'"+","+"'"+t2+"'"+","+"'"+t3+"'"+","+"'"+t4+"'"+","+"'"+str(t5)+"'"+")")
+       conn.commit()
+       st.success("Signed Up Successfully!")
+       st.balloons()
+
+       
+    #if st.button("*Sign up*", use_container_width=True):
+        #st.success("Your are signed up!")
+        
 
 with col3:
     if st.button("*Forgot password*", use_container_width=True):
         st.info("Changing password!")
+        
