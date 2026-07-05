@@ -31,9 +31,10 @@ https://code-syntax.streamlit.app/ ---->link
 
 ## ✍🏻 Project Structure
 
-![landing page](LANDING_PAGE.png)
+
 ![sign_up page](SIGN_UP_PAGE.png)
 ![sign in page](SIGN_IN_PAGE.png)
+![landing page](LANDING_PAGE.png)
 ![CODE_REFERENCE_1](CODE_REFERENCE_1.png)
 ![CODE_REFERENCE_2](CODE_REFERENCE_2.png)
 ![CODE_REFERENCE_3](CODE_REFERENC_3.png)
