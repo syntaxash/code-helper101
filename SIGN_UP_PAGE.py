@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 import pymongo
-conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2")
+conn=pymongo.MongoClient(mongodb+srv://ashish_admin:AShish_ISadmin@ashishcluster.dkse850.mongodb.net/?appName=ASHISHcluster)
 
 mydb=conn["users"]#users is database on mongodb
 my=mydb["user_info"]#user_info is a collection on mongodb
