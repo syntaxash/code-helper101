@@ -25,7 +25,7 @@ Instead of spending time searching through lengthy documentation, Code Helper pr
 
 Code Helper combines simplicity, speed, and accessibility to create a seamless coding reference experience for learners and professionals alike.
 
-https://code-syntax.streamlit.app/ ---->link
+code-apper101-j7jnff6jjsphvn7xrp2tbp---->link
 
 **Code Smarter. Learn Faster. Build Better. 🚀✨**
 
